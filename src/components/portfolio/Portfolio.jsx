@@ -1,6 +1,7 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import portfolio1 from '../../assets/portfolio1.png';
+import portfolio2 from '../../assets/portfolio2.png';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -16,12 +17,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      image: portfolio1,
-      title: 'Portfolio Item 2',
-      description: 'Portfolio Item 1 description',
-      technologies: ['ror', 'react'],
-      source: 'http://github.com',
-      demo: 'http://facebook.com',
+      image: portfolio2,
+      title: 'Budget Tracker',
+      description: 'Budget Tracker is a web application that allows users to add categories and add expenses to the  transactions.',
+      technologies: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
+      source: 'https://github.com/SaboorSohaib/Budget-tracker',
+      demo: 'https://sohaib-budget.onrender.com/',
     },
     {
       id: 3,
