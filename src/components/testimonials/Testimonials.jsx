@@ -17,9 +17,9 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      link: 'http://linkedin.com',
-      name: 'Name of peers',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptates voluptatem exercitationem quos voluptate quas quibusdam, quia, quod voluptates',
+      link: 'https://www.linkedin.com/in/kolapo-akinrinlola/',
+      name: 'KOLAPO AKINRINLOLA',
+      review: "Abdul is a developer you'll surely want on your team due to his perseverance, he stiffs to know more and is open to learning something new. He offers help whenever he can and is also a good team player. He loves professionalism and strives to get the job done, efficiently though. I recommend Abdul for any job involving a team player and efficient code writing.",
     },
     {
       id: 3,
