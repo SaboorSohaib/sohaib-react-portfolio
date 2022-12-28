@@ -11,9 +11,9 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      link: 'http://linkedin.com',
-      name: 'Name of peers',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptates voluptatem exercitationem quos voluptate quas quibusdam, quia, quod voluptates',
+      link: 'https://www.linkedin.com/in/ayodejiabidemi/',
+      name: 'Ayodeji Abidemi',
+      review: "Abdul Saboor Sohaib is an excellent software developer I met learning at Microverse. We worked on a project together and he was a great collaborator. He displayed the act of kindness and support to his partners, He proved his commitment and determination over and over again, He's the type of person that has the patience to learn new things, and his attention to detail is evident in all of the projects I've worked with him on. He is always PUNCTUAL and values your time. It has been a pleasure working with him! I recommend him highly and without reservations.",
     },
     {
       id: 2,
