@@ -23,14 +23,14 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      link: 'http://linkedin.com',
-      name: 'Name of peers',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptates voluptatem exercitationem quos voluptate quas quibusdam, quia, quod voluptates',
+      link: 'https://www.linkedin.com/in/habibpayenda/',
+      name: 'Habib Payenda',
+      review: "Abdul Saboor is exactly the sort of software developer any company would love. I met them while struggling with a tough data structures problem, and within a few minutes they'd managed to explain a concept I'd been struggling with for days. They have a great way of simplifying complex problems into bite-sized pieces, and as a junior developer, that was really valuable for me. They're also just a fun person to chat with! If you need to get a job done simply and efficiently, Abdul Saboor is definitely the person for you.",
     },
     {
       id: 4,
       link: 'http://linkedin.com',
-      name: 'Name of peers',
+      name: '',
       review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptates voluptatem exercitationem quos voluptate quas quibusdam, quia, quod voluptates',
     },
     {
