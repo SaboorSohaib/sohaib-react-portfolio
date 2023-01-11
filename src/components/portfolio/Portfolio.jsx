@@ -32,7 +32,7 @@ const Portfolio = () => {
       description: 'Book Store is a React application that allows users to add/remove books from public the API.',
       technologies: ['React', 'Redux', 'CSS'],
       source: 'https://github.com/SaboorSohaib/book-store',
-      demo: 'http://facebook.com',
+      demo: 'https://lucent-hummingbird-63b750.netlify.app/',
     },
     {
       id: 4,
