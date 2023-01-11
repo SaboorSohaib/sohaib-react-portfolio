@@ -35,9 +35,9 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      link: 'http://linkedin.com',
-      name: 'Name of peers',
-      review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, quia, quod voluptates voluptatem exercitationem quos voluptate quas quibusdam, quia, quod voluptates',
+      link: 'https://www.linkedin.com/in/rashid-menhas/',
+      name: 'Rashid Menhas',
+      review: "Abdul Saboor Sohaib is a fantastic software engineer, and his detail-oriented approach made him a pleasure to work with. We pair-programmed extensively together while enrolled in a software development program, and at that time his work ethic blew me away. Abdul Saboor Sohaib views writing clean, accessible code as a calling, and he's great at identifying areas where we can improve UI. He's also super friendly; by the time our project was done, I felt like we'd known each other for years. I can't recommend him enough!",
     },
   ];
 
