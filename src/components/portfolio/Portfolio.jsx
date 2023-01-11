@@ -2,6 +2,7 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import portfolio1 from '../../assets/portfolio1.png';
 import portfolio2 from '../../assets/portfolio2.png';
+import BookStore from '../../assets/BookStore.jpeg';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -26,11 +27,11 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      image: portfolio1,
-      title: 'Portfolio Item 3',
-      description: 'Portfolio Item 1 description',
-      technologies: ['ror', 'react'],
-      source: 'http://github.com',
+      image: BookStore,
+      title: 'Book Store',
+      description: 'Book Store is a React application that allows users to add/remove books from public the API.',
+      technologies: ['React', 'Redux', 'CSS'],
+      source: 'https://github.com/SaboorSohaib/book-store',
       demo: 'http://facebook.com',
     },
     {
