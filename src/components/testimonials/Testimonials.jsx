@@ -31,7 +31,7 @@ const Testimonials = () => {
       id: 4,
       link: 'https://www.linkedin.com/in/andy-diegaardt/',
       name: 'Andrea Diegaardt',
-      review: "If you’re looking to work with someone who can help you reach your full potential, Abdul is that person. I have had the pleasure of working with him on a few projects now and he has been very supportive and motivating. He had excellent time management skills and a knack for keeping everyone calm and productive during tough times.",
+      review: 'If you’re looking to work with someone who can help you reach your full potential, Abdul is that person. I have had the pleasure of working with him on a few projects now and he has been very supportive and motivating. He had excellent time management skills and a knack for keeping everyone calm and productive during tough times.',
     },
     {
       id: 5,
