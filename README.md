@@ -59,9 +59,9 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 
-# 📖 OOP-In-Ruby <a name="about-project"></a>
+# 📖 React Portfolio <a name="about-project"></a>
 
-> OOP-In-Ruby is the implementation of oop in ruby language with person super-class and student, teacher as sub-class.
+> This is my new portfolio website that I devoloped with react.
 
 ## 🛠 Built With <a name="built-with"></a>
 
