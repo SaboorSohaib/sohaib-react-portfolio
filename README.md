@@ -72,14 +72,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://N/A.org/">N/A</a></li>
+    <li><a href="https://N/A.org/">React</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>Ruby</li>
+    <li>N/A</li>
   </ul>
 </details>
 
@@ -96,10 +96,8 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **We used oop peinciple in this project**
-- **We used decorator design pattern**
-- **We set up some associations**
-
+- **Advanced animation**
+- **Single Page Application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,11 +184,8 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] - **Add new student**
-- [ ] - **Add new teacher**
-- [ ] - **Add new book**
-- [ ] - **Add book rental**
-- [ ] - **Add databse**
+- [ ] - **Add skill page**
+- [ ] - **Add project page**
 
 
 
