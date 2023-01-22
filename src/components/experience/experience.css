@@ -18,6 +18,25 @@
     cursor: default;
 }
 
+/* Media Query: tablet */
+
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        padding: 2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+}
+
+
 .experience__container > div > h3 {
     text-align: center;
     margin-bottom: 2rem;
