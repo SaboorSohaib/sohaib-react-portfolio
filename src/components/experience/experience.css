@@ -1,71 +1,70 @@
 .experience__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
 }
 
 .experience__container > div {
-    background: var(--color-bg-variant);
-    padding: 4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+  background: var(--color-bg-variant);
+  padding: 4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .experience__container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 /* Media Query: tablet */
 
 @media screen and (max-width: 1024px) {
-    .experience__container {
-        grid-template-columns: 1fr;
-    }
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
 
-    .experience__container > div {
-        padding: 2rem;
-        width: 80%;
-        margin: 0 auto;
-    }
+  .experience__container > div {
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+  }
 
-    .experience__content {
-        padding: 1rem;
-    }
+  .experience__content {
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .experience__container {
-        gap: 1rem;
-    }
+  .experience__container {
+    gap: 1rem;
+  }
 
-    .experience__container > div {
-        padding: 2rem 1rem;
-        width: 100%;
-    }
+  .experience__container > div {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
 }
 
-
 .experience__container > div > h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
 }
 
 .experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3rem;
 }
 
-.experience__details{
-    display: flex;
-    gap: 1rem;
+.experience__details {
+  display: flex;
+  gap: 1rem;
 }
 
 .experience__details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
+  margin-top: 6px;
+  color: var(--color-primary);
 }
