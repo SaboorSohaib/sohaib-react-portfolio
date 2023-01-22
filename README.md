@@ -186,6 +186,7 @@ You can deploy this project using:
 
 - [ ] - **Add skill page**
 - [ ] - **Add project page**
+- [ ] - **Add dashborad**
 
 
 
