@@ -7,11 +7,12 @@ import {
     faAngellist,
  } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './style.css';
 
 const Home = () => {
     return (
-        <div>
-            <nav>
+        <main className="main-home">
+            <nav className="navbar">
                 <ul>
                     <li>
                         <a href="/">Home</a>
@@ -27,27 +28,50 @@ const Home = () => {
                     </li>
                 </ul>
             </nav>
-            <main>
+            <div className="content">
                 <h1>
-                    Hey there. I'm Sohaib.
+                    Hey there. I'm Abdul Saboor Sohaib.<br />
                     <span class="green"> I'm a Full-stack web developer</span>
                 </h1>
-                <p>
+                <p className="text">
                     With a background in developing efficient web applications in a global market.
                     More thsn 1300+ hours of experience, including mentoring 5+ junior developers to achieve 
                     concrete goals on a strict deadline. Strong skills include JavaScript React, Redux, Ruby, 
                     Ruby on Rails, PostgreSQL, Figma, and Animation Libraries!
                 </p>
-                <div>
-                    <FontAwesomeIcon icon={faGithub} className="text-center" />
-                    <FontAwesomeIcon icon={faLinkedin} className="text-center" />
-                    <FontAwesomeIcon icon={faMedium} className="text-center" />
-                    <FontAwesomeIcon icon={faTwitter} className="text-center" />
-                    <FontAwesomeIcon icon={faAngellist} className="text-center" />
+                <div className="social-icon">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sohaib-ahmed-1b1b1b1b1/">
+                                <FontAwesomeIcon icon={faGithub} className="text-center" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sohaib-ahmed-1b1b1b1b1/">
+                                <FontAwesomeIcon icon={faLinkedin} className="text-center" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sohaib-ahmed-1b1b1b1b1/">
+                                <FontAwesomeIcon icon={faAngellist} className="text-center" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@sohaibahmedkhan">
+                                <FontAwesomeIcon icon={faMedium} className="text-center" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/SohaibAhmedKha1">
+                                <FontAwesomeIcon icon={faTwitter} className="text-center" />
+                            </a>
+                        </li>
+                        
+                    </ul>
                 </div>
-            </main>
+            </div>
 
-        </div>
+        </main>
     );
     
 };
