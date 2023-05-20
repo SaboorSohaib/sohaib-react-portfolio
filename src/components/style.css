@@ -65,18 +65,15 @@
 }
 
 .projects-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.334%;
+    grid-gap: 20px;
 }
 
 .card{
-    border: 2px solid #000;
-    width: 400px;
-    height: 450px;
+    border: 1px solid rgb(208, 217, 212);
+    width: 350px;
+    height: 470px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -84,7 +81,7 @@
 }
 
 .project-img{
-    width: 400px;
+    width: 330px;
     height: 200px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -104,4 +101,61 @@
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
+}
+
+/* About  */
+.main-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.about-text {
+    text-align: center;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.resume-btn {
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.single-card {
+    border: 1px solid rgb(208, 217, 212);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+}
+
+.skills span {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
