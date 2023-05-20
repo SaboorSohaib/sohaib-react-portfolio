@@ -78,6 +78,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    background-color: rgb(235, 240, 238);
 }
 
 .project-img{
@@ -89,10 +90,11 @@
 
 .stack span {
     display: inline-block;
-    border: 1px solid #000;
+    border: none;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 .project-btn {
@@ -145,6 +147,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgb(235, 240, 238);
 }
 
 .img {
@@ -154,8 +157,9 @@
 
 .skills span {
     display: inline-block;
-    border: 1px solid #000;
+    border: none;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    background-color: rgb(255, 255, 255);
 }
