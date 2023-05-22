@@ -24,14 +24,7 @@ const Form = () => {
                     <button type="submit" className="form-btn">Get in touch</button>
                 </form>
             </div>
-            <hr  style={{
-                color: '#000000',
-                backgroundColor: '#000000',
-                height: '1px',
-                width: '100%',
-                borderColor : '#000000'
-            }}/>
-            <div className="social-icon">
+            <div className="last-social-icon">
                     <ul>
                         <li>
                             <a href="https://www.linkedin.com/in/sohaib-ahmed-1b1b1b1b1/">
@@ -61,7 +54,6 @@ const Form = () => {
                         
                     </ul>
                 </div>
-
         </main>
     );
 };

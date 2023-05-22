@@ -5,7 +5,7 @@ import './style.css'
 const ProjectCards = () => {
     return (
         <main className="card-main">
-            <h2 className="project-title">My Recent Work</h2>
+            <h2 className="project-title">My Recent Works</h2>
             <div className="projects-cards">
                 <div className="card">
                     <img src={worldVision} alt="World Vision" className="project-img"/>
