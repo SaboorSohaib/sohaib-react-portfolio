@@ -99,10 +99,21 @@
 
 .project-btn {
     margin: 10px auto;
-    padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    background-color: rgb(54, 179, 127);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    font-size: 18px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background-color: rgb(84, 236, 173);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 /* About  */
@@ -123,11 +134,22 @@
 
 .resume-btn {
     margin: 10px auto;
-    padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: rgb(54, 179, 127);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    font-size: 17px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: rgb(84, 236, 173);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .about-card {
@@ -169,9 +191,10 @@
 .main-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
+    margin-top: 120px;
 }
 
 .form {
@@ -183,7 +206,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 50px;
+    padding: 70px;
+    border-bottom: 2px solid black;
 }
 
 .form-content p {
@@ -215,8 +239,29 @@
 .form-btn {
     padding: 10px;
     border-radius: 5px;
-    width: 100px;
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: rgb(54, 179, 127);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    font-size: 17px;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.form-btn:hover {
+    background-color: rgb(84, 236, 173);
+    box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.last-social-icon {
+    margin-right: 110px;
+}
+
+.last-social-icon ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: large;
 }
