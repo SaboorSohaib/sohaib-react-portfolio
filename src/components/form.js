@@ -12,7 +12,6 @@ import './style.css'
 const Form = () => {
     return (
         <main className="main-form">
-            <h2 className="form-title">Contact Me</h2>
             <div className="form-content"> 
                 <p>
                   I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
