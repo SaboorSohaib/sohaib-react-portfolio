@@ -1,9 +1,7 @@
-import React, {useState} from 'react';
-import {AiOutlineHome} from 'react-icons/ai';
-import {AiOutlineUser} from 'react-icons/ai';
-import {AiOutlineFileText} from 'react-icons/ai';
-import {AiOutlineProject} from 'react-icons/ai';
-import {AiOutlineMail} from 'react-icons/ai';
+import React, { useState } from 'react';
+import {
+  AiOutlineHome, AiOutlineUser, AiOutlineFileText, AiOutlineProject, AiOutlineMail,
+} from 'react-icons/ai';
 import './nav.css';
 
 const Nav = () => {
@@ -16,7 +14,7 @@ const Nav = () => {
       <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineProject /></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMail /></a>
     </nav>
-  )
-}
+  );
+};
 
 export default Nav;
