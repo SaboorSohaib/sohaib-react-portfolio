@@ -8,11 +8,11 @@ const Portfolio = () => {
     {
       id: 1,
       image: portfolio1,
-      title: 'Portfolio Item 1',
-      description: 'Portfolio Item 1 description',
-      technologies: ['ror', 'react'],
-      source: 'http://github.com',
-      demo: 'http://facebook.com',
+      title: 'World Vision Clinic',
+      description: 'World Vision Clinic is a web application that allows users to see the doctor’s profile and book an appointment with the doctor, and also see the list of all the appointments they have booked.',
+      technologies: ['Ruby on Rails', 'React', 'PostgreSQL'],
+      source: 'https://github.com/MudasirSherwani/Book-Appointment-Front-End',
+      demo: 'https://world-vision-clinic.netlify.app/',
     },
     {
       id: 2,
