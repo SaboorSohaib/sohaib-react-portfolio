@@ -31,10 +31,9 @@ const About = () => (
         </div>
         <p>
           Full-stack web developer with a background in developing efficient web applications in a
-          global market.
-          More thsn 1300+ hours of experience, including mentoring 5+ junior developers to achieve
-          concrete goals on a strict deadline. Strong skills include JavaScript React, Redux, Ruby,
-          Ruby on Rails, PostgreSQL, RestAPI and Figma!
+          global market. More thsn 1300+ hours of experience, including mentoring 5+ junior developers
+          to achieve concrete goals on a strict deadline. Strong skills include JavaScript React, Redux,
+          Ruby, Ruby on Rails, PostgreSQL, RestAPI and Figma!
         </p>
 
         <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
