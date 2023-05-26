@@ -29,6 +29,7 @@ const About = () => (
             <small>30+</small>
           </article>
         </div>
+        
         <p>
           Full-stack web developer with a background in developing efficient web applications in a
           global market. More thsn 1300+ hours of experience, including mentoring 5+ junior developers
