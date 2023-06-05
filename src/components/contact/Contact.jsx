@@ -49,8 +49,8 @@ const Contact = () => {
           <article className="contact__option">
             <ImWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>0093786189455</h5>
-            <a href="https://api.whatsapp.com/send?phone=0093786189455" target="blank" rel="noreferrer">Send a message</a>
+            <h5>+93786189455</h5>
+            <a href="https://api.whatsapp.com/send?phone=+93786189455" target="blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
 
