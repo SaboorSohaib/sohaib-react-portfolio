@@ -63,7 +63,7 @@ const Testimonials = () => {
           }) => (
             <SwiperSlide key={id} className="testimonial">
               <div className="peer__avatar">
-                <a href={link} target="_blank" rel="noreferrer">
+                <a href={link} target="_blank" rel="noreferrer" aria-label={`LinkedIn profile of ${name}`}>
                   <BsLinkedin />
                 </a>
               </div>
