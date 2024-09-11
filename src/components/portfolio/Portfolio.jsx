@@ -35,7 +35,7 @@ const Portfolio = () => {
       description: 'Book Store is a sophisticated React app for seamless book and author management, seamlessly integrating with an API. Users can efficiently add and remove books with ease, ensuring a smooth experience for book enthusiasts.',
       technologies: ['React', 'Redux', 'CSS'],
       source: 'https://github.com/SaboorSohaib/book-store',
-      demo: 'https://lucent-hummingbird-63b750.netlify.app/',
+      demo: 'https://sohaib-book-store.netlify.app/',
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const Portfolio = () => {
       description: 'Europe Countries is a React application that allows users to see the list of all the countries in Europe and also see the details of each country. I fetched the countries from API.',
       technologies: ['React', 'Redux', 'CSS'],
       source: 'https://github.com/SaboorSohaib/Europe-countries',
-      demo: 'https://enchanting-pavlova-7392f8.netlify.app/',
+      demo: 'https://europe-countries-map.netlify.app/',
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ const Portfolio = () => {
       description: 'Space Travelers Hub is a cutting-edge React application that empowers users to effortlessly book and cancel rocket reservations. Leveraging API integration.',
       technologies: ['React', 'Redux', 'Bootstrap'],
       source: 'https://github.com/SaboorSohaib/Space-Travelers-Hub',
-      demo: 'https://voluble-malabi-4602b8.netlify.app/',
+      demo: 'https://sohaib-space-travel-hub.netlify.app/',
     },
     {
       id: 6,
