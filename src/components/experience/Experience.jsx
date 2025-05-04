@@ -1,6 +1,5 @@
-import React from 'react';
-import { BsPatchCheckFill } from 'react-icons/bs';
-import './experience.css';
+import { BsPatchCheckFill } from "react-icons/bs";
+import "./experience.css";
 
 const Experience = () => (
   <section id="experience">
@@ -34,6 +33,14 @@ const Experience = () => (
             <BsPatchCheckFill className="experience__details-icon" />
             <h4>Bootstrap</h4>
           </article>
+          <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <h4>TypeScript</h4>
+          </article>
+          <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <h4>Next.js</h4>
+          </article>
         </div>
       </div>
 
@@ -50,7 +57,7 @@ const Experience = () => (
           </article>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
-            <h4>PostgreSQL</h4>
+            <h4>Nest.js</h4>
           </article>
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
@@ -63,6 +70,14 @@ const Experience = () => (
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icon" />
             <h4>Swagger</h4>
+          </article>
+          <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <h4>PostgreSQL</h4>
+          </article>
+          <article className="experience__details">
+            <BsPatchCheckFill className="experience__details-icon" />
+            <h4>Prisma</h4>
           </article>
         </div>
       </div>
